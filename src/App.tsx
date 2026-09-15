@@ -14,7 +14,7 @@ import {
   Play,
 } from 'lucide-react';
 
-const WEDDING_DATE = new Date('2026-09-15T17:00:00');
+const WEDDING_DATE = new Date('2026-10-12T17:00:00');
 
 function useCountdown(target: Date) {
   const [now, setNow] = useState(() => new Date());
@@ -231,7 +231,7 @@ function InvitationCover({ onOpen }: { onOpen: () => void }) {
           <span className="h-px w-14 bg-gold-300/60 sm:w-24" />
 
           <span className="font-sans text-xs tracking-[0.35em] text-cream-100">
-            15 · 09 · 2026
+            12 · 10 · 2026
           </span>
 
           <span className="h-px w-14 bg-gold-300/60 sm:w-24" />
@@ -339,7 +339,7 @@ function App() {
 
         <div className="relative z-10 text-center max-w-3xl animate-fade-in">
           <p className="font-sans text-sm uppercase tracking-[0.35em] text-gold-600 mb-6">
-            Bizning quvonchimizda ulashing
+            12 · 10 · 2026
           </p>
 
           <div className="flex items-center justify-center gap-4 mb-4">
@@ -354,7 +354,7 @@ function App() {
           </div>
 
           <p className="font-cursive text-2xl sm:text-3xl text-sage-600 mb-2">
-            Biz nikohlanmoqchimiz
+            Xamidullo &amp; Sevinch
           </p>
 
           <h1 className="font-serif text-5xl sm:text-7xl lg:text-8xl text-gold-gradient leading-tight mb-4">
@@ -389,15 +389,14 @@ function App() {
         </p>
 
         <h2 className="font-serif text-3xl sm:text-5xl text-sage-800 mb-6">
-          Sizni bizning to'yimizga taklif qilamiz
+          Sizni bizning nikoh to‘yimizga taklif qilamiz
         </h2>
 
         <OrnamentDivider />
 
         <p className="font-garamond text-lg sm:text-xl text-sage-600 leading-relaxed max-w-2xl mx-auto">
           Hayotimizdagi eng quvonchli kunda aziz do'st va yaqinlarimiz bilan
-          birga bo'lishni istaymiz. To'y bayramonimizga kelib, quvonchimizda
-          ulashingizdan cheksiz minnatdormiz bo'lamiz.
+          birga bo'lishni istaymiz.
         </p>
       </section>
 
@@ -416,7 +415,7 @@ function App() {
             </p>
 
             <p className="font-serif text-2xl sm:text-3xl text-gold-700">
-              15 Sentyabr 2026
+              12 Oktabr 2026
             </p>
           </div>
 
