@@ -439,29 +439,46 @@ function App() {
 
       {/* Venue */}
       <section className="relative px-6 py-16 max-w-3xl mx-auto text-center">
-        <OrnamentDivider />
+  <OrnamentDivider />
 
-        <MapPin
-          className="w-10 h-10 text-gold-500 mx-auto mb-6"
-          strokeWidth={1.1}
-        />
+  <MapPin
+    className="w-10 h-10 text-gold-500 mx-auto mb-6"
+    strokeWidth={1.1}
+  />
 
-        <p className="font-sans text-xs uppercase tracking-[0.3em] text-sage-500 mb-4">
-          Manzil
-        </p>
+  <p className="font-sans text-xs uppercase tracking-[0.3em] text-sage-500 mb-4">
+    Manzil
+  </p>
 
-        <h3 className="font-serif text-2xl sm:text-4xl text-sage-800 mb-3">
-          Yulduz To'yxonasi
-        </h3>
+  <h3 className="font-serif text-2xl sm:text-4xl text-sage-800 mb-3">
+    Yulduz To'yxonasi
+  </h3>
 
-        <p className="font-garamond text-lg sm:text-xl text-sage-600 leading-relaxed">
-          Toshkent viloyati, Parkent tumani
-        </p>
+  <p className="font-garamond text-lg sm:text-xl text-sage-600 leading-relaxed">
+    Toshkent viloyati, Parkent tumani
+  </p>
 
-        <p className="font-garamond text-base text-sage-500 mt-1">
-          2-qavat
-        </p>
-      </section>
+  <p className="font-garamond text-base text-sage-500 mt-1 mb-7">
+    2-qavat
+  </p>
+
+  {/* Google Maps */}
+  <a
+    href="https://maps.app.goo.gl/D1gxGsxWd4vMDpWT7"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-3 px-7 py-3 rounded-full
+               bg-sage-800 text-white
+               font-sans text-sm tracking-wide
+               transition-all duration-300
+               hover:bg-sage-700 hover:scale-105
+               shadow-md hover:shadow-lg"
+  >
+    <MapPin className="w-5 h-5" strokeWidth={1.5} />
+
+    <span>Lokatsiyani ochish</span>
+  </a>
+</section>
 
       {/* Countdown */}
       <section className="relative px-6 py-20 max-w-3xl mx-auto text-center">
